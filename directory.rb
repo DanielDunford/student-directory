@@ -1,4 +1,4 @@
-student_count = 11
+
 #Lets put all of our students into an array
 students = [
 "Dr. Hannibal Lecter",
@@ -25,7 +25,7 @@ def print(names)
 end
 
 def print_footer(names)
-  puts "Overall, we have #{students.count} great students"
+  puts "Overall, we have #{names.count} great students"
 end 
 
 # Nothing happens until we call methods 
